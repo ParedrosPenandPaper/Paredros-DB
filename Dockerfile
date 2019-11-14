@@ -1,6 +1,6 @@
 FROM mvertes/alpine-mongo:latest
 
-COPY db-init.js .
+COPY db_init.js .
 RUN [ 'mongo', 'load("db-init.js")' ]
 
 VOLUME /data/db
