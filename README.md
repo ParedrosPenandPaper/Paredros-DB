@@ -2,5 +2,5 @@
 
 ## setup
 ```
-docker run -d --name paredros-db --network paredros-net mvertes/alpine-mongo
+docker run -d --name paredros-db --network paredros-net paredros-db
 ```
