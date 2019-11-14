@@ -1,0 +1,6 @@
+docker-build:
+  - script: docker build -t paredros-db .
+  tags:
+  - deploy
+  only:
+  - master
