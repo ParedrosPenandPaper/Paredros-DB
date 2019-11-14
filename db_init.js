@@ -1,0 +1,1 @@
+// init script for mongo db
