@@ -1,6 +1,6 @@
 FROM mongo:latest
 
-COPY setup.js /docker-entrypoint-initdb.d/
+COPY setup.js .
 VOLUME /data/db
 EXPOSE 27017
 
