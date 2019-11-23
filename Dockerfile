@@ -4,4 +4,4 @@ COPY setup.js .
 VOLUME /data/db
 EXPOSE 27017
 
-CMD mongod
+CMD mongod --bind_ip_all
